@@ -3,6 +3,8 @@
 Current functionality is limited to switching between 
 "completed" and "ongoing" surveys, all hardcoded in.
 
+Design is based upon the pitchdeck in the parent directory.
+
 One current bug is the inability to select the image to use
 based on props, since React Native does not allow dynamic
 image sourcing. I spent several hours attempting to solve 
