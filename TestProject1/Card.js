@@ -11,7 +11,7 @@ export default class Card extends Component {
   render() {
   	return(
   		<View style={{flex: 1, backgroundColor: 'white', height: 180, flexDirection: 'column', marginLeft: 8, marginRight: 8, marginTop: 8, marginBottom: 2}}>
-  			<Image style={{height: null, width: null, flex: 1}} source={require('./school.jpg')}>
+  			<Image style={{height: null, width: null, flex: 1}} source={require('./img/school.jpg')}>
   				<View style={{flexDirection: 'row'}}>
   					<View style={{flex: 3, height: 108, justifyContent: 'flex-end'}}>
   						<Text style={{color: 'white', fontSize: 40, textAlign: 'left', marginLeft: 15, marginBottom: 8, fontWeight: 'bold'}}>{this.props.surveyTitle}</Text>
